@@ -16,5 +16,5 @@ ENV BLOG_SERVICE_PORT=8282
  
 # Run all services using a shell script
 CMD ["sh", "-c", "\
-    java -jar blog-service-0.0.1-SNAPSHOT.jar --server.port=${BLOG_SERVICE_PORT} & \
+    java -jar Like-Service-0.0.1-SNAPSHOT --server.port=${LIKE_SERVICE_PORT} & \
     wait"]
